@@ -108,15 +108,61 @@
 // console.log(counter());
 // console.log(counter());
 
-function sumFunc(a, b) {
-    return a + b;
+// function sumFunc(a, b) {
+//     return a + b;
+// }
+// const sumFunc2 = (a, b) => a + b;
+// const double = x => x * 2;
+// const sumFunc3 = (a, b) => a + b;
+// const sayGreeting = () => console.log("hello");
+// const square = x => x * x;
+// const calculate = (a, b) => {
+//     let result = a + b;
+//     return result * 2;
+// }
+
+// let narr = [1, 2, 3];
+// console.log(narr);
+// console.log(narr[0]);
+// console.log(narr[1]);
+
+// let colors = ["black", "white", "red"]
+
+// console.log(colors[0], colors[2]);
+// colors[1] = "orange";
+// console.log(colors);
+
+// console.log(colors.length);
+// colors.push(10);
+// console.log(colors)
+// colors.pop();
+// console.log(colors)
+
+// let students = [];
+// students.push("nata", "dina", "dinara");
+// students.pop();
+// console.log(students);
+
+// let num2 = [10, 20, 30];
+// for (let i = 0; i < num2.length; i++) {
+//     console.log(num2[i]);
+// }
+
+// for (let value of num2){
+//     console.log(value)
+// }
+
+// let mixedArray = [1, "text", true, 3.14];
+// console.log(mixedArray);
+
+// console.log(mixedArray.includes(1));
+// console.log(mixedArray.indexOf(2));
+
+let city = ["volgograd", "moscow", "omsk"];
+if (city.includes("volgograd") == true){
+    console.log(city.indexOf("volgograd"));
 }
-const sumFunc2 = (a, b) => a + b;
-const double = x => x * 2;
-const sumFunc3 = (a, b) => a + b;
-const sayGreeting = () => console.log("hello");
-const square = x => x * x;
-const calculate = (a, b) => {
-    let result = a + b;
-    return result * 2;
-}
+
+
+
+
