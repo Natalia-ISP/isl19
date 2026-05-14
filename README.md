@@ -14,4 +14,3 @@
 + index.html - файл для работы main.js
 + main.js - основной файл лабы
 + README.md - о проекте
-
