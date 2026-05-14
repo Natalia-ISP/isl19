@@ -158,11 +158,75 @@
 // console.log(mixedArray.includes(1));
 // console.log(mixedArray.indexOf(2));
 
-let city = ["volgograd", "moscow", "omsk"];
-if (city.includes("volgograd") == true){
-    console.log(city.indexOf("volgograd"));
-}
+// let city = ["volgograd", "moscow", "omsk"];
+// if (city.includes("volgograd") == true){
+//     console.log(city.indexOf("volgograd"));
+// }
 
+// let user2 = {
+//     name: "ivan",
+//     age: 20,
+//     isStudent: true,
+// };
+// console.log(user2);
 
+// console.log(user2.name);
+// console.log(user2.age);
 
+// let book = {
+//     title: "маленький принц",
+//     author: "Антуан де Сент-Экзюпери",
+//     year: 1942,
+// };
 
+// book.year = 6767;
+// console.log(book.title, book.author, book.year);
+
+// user2.age = 30;
+// user2.name = "кирилл";
+// delete user2.isStudent;
+// console.log(user2);
+
+// let user2 = {
+//     name: "ivan",
+//     age: 20,
+//     isStudent: true,
+//     sayHello: function () {
+//         console.log(`hello, my name is ${name}`);
+//     },
+// };
+// user2.sayHello();
+
+// let car = {
+//     brand: "toyota",
+//     year: 2007,
+//     getInfo: function () {
+//         console.log(this.brand, this.year);
+//     },
+// };
+// car.getInfo();
+
+// for (let key in user2) {
+//     console.log(key + ": " + user2[key]);
+// }
+
+// let product = {
+//     name: "papia",
+//     cost: 150,
+// };
+
+// for (let key in product) {
+//     console.log(key + ": " + product[key]);
+// }
+
+let student = {
+    name: "григорий",
+    skills: ["html", "css", "js"],
+    address: {
+        city: "vlg",
+        street: "пушкина",
+    },
+};
+
+console.log(student.skills[0]);
+console.log(student.address.city);
